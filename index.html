@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thay đổi chiều rộng của hình ảnh</title>
+	<script>
+		function changeWidth() {
+			var img = document.getElementById("myImage");
+			var maxWidth = 500; // giá trị tối đa của chiều rộng
+			var newWidth = Math.round(Math.random() * maxWidth); // tạo một chiều rộng ngẫu nhiên
+			img.style.width = newWidth + "px"; // thay đổi chiều rộng của hình ảnh
+		}
+	</script>
+</head>
+<body>
+	<img id="myImage" src="27212817110061775266623491256080737665900375n-16450863187391857196552.jpg" width="400">
+	<button onclick="changeWidth()">Thay đổi chiều rộng</button>
+</body>
+</html>
